@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixenes</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main">
+        <div id="toolbar">
+            <input type="number" class="gridNumberInput" id="gridSizeX" min="1" value="10" onchange="changeGrid('x')">
+            <input type="number" class="gridNumberInput" id="gridSizeY" min="1" value="10" onchange="changeGrid('y')">
+            <input type="number" class="gridNumberInput" id="pixelSizeX" min="1" value="40" onchange="changeGrid('px')">
+            <input type="number" class="gridNumberInput" id="pixelSizeY" min="1" value="40" onchange="changeGrid('py')">
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="PixeneUtils.js"></script>
+    <script src="Pixenes.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
